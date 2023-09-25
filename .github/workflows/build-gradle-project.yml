@@ -14,4 +14,4 @@ jobs:
         with:
           gradle-version: 7.6.1
       - name: Run build with Gradle Wrapper
-      - run: ./gradlew --no-build-cache
+        run: ./gradlew clean build --no-build-cache
